@@ -3,12 +3,12 @@
 
 ##主页
 [我的github](https://github.com/Herb2333/community)  
-
+[码匠的github](https://github.com/codedrinker/community)  
 ##工具
 [vpn](https://www.baacloud33.com/modules/)  
 [git登录实现OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
 [Bootstrap](https://v3.bootcss.com/getting-started/#examples)  
 [Visual Paradigm]()  
-[okhtp](https://square.github.io/okhttp/)
-
+[okhtp](https://square.github.io/okhttp/)  
+[菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)  
 
