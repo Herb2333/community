@@ -13,7 +13,7 @@
 [菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)  
 
 ## 脚本
-'''sql
+```sql
 create table USER
 (
     ID           INTEGER default (NEXT VALUE FOR "PUBLIC"."SYSTEM_SEQUENCE_3166226D_ACFA_41A9_AB23_5DA47FDB74A9") auto_increment,
@@ -23,5 +23,5 @@ create table USER
     GMT_CREAT    BIGINT,
     GMT_MODIFIED BIGINT
 );
-'''
+```
 
