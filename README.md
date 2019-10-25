@@ -1,7 +1,7 @@
-##资料
+## 资料  
 [视频教程](https://www.bilibili.com/video/av65117012/?p=5)  
 
-##主页
+## 主页  
 [我的github](https://github.com/Herb2333/community)  
 [码匠的github](https://github.com/codedrinker/community)  
 ## 工具
@@ -15,13 +15,13 @@
 ## 脚本
 ```sql
 create table USER
-(
-    ID           INTEGER default (NEXT VALUE FOR "PUBLIC"."SYSTEM_SEQUENCE_3166226D_ACFA_41A9_AB23_5DA47FDB74A9") auto_increment,
-    ACCOUNT_ID   VARCHAR(100),
-    NAME         VARCHAR(50),
-    TOKEN        CHAR(36),
-    GMT_CREAT    BIGINT,
-    GMT_MODIFIED BIGINT
-);
+      (
+      	ID INTEGER default (NEXT VALUE FOR "PUBLIC"."SYSTEM_SEQUENCE_EF8EA3B6_5702_4260_885B_459286488D49") auto_increment,
+      	ACCOUNT_ID VARCHAR(100),
+      	NAME VARCHAR(50),
+      	TOKEN CHAR(36),
+      	GMT_CREAT BIGINT,
+      	GMT_MODIFIED BIGINT
+      );
 ```
 
