@@ -9,19 +9,24 @@
 [git登录实现OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
 [Bootstrap](https://v3.bootcss.com/getting-started/#examples)  
 [Visual Paradigm]()  
-[okhtp](https://square.github.io/okhttp/)  
-[菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)  
+[okhttp](https://square.github.io/okhttp/)  
+[sql菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)  
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
 
 ## 脚本
 ```sql
 create table USER
-      (
-      	ID INTEGER default (NEXT VALUE FOR "PUBLIC"."SYSTEM_SEQUENCE_EF8EA3B6_5702_4260_885B_459286488D49") auto_increment,
-      	ACCOUNT_ID VARCHAR(100),
-      	NAME VARCHAR(50),
-      	TOKEN CHAR(36),
-      	GMT_CREAT BIGINT,
-      	GMT_MODIFIED BIGINT
-      );
+(
+	ID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	ACCOUNT_ID VARCHAR(100),
+	NAME VARCHAR(50),
+	TOKEN CHAR(36),
+	GMT_CREAT BIGINT,
+	GMT_MODIFIED BIGINT
+);
+```  
+```bash
+mvn flyway:migrate
 ```
+
 
