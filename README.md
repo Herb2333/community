@@ -4,6 +4,7 @@
 ## 主页  
 [我的github](https://github.com/Herb2333/community)  
 [码匠的github](https://github.com/codedrinker/community)  
+[页面信息](https://api.github.com/user?access_token=a679ee2b5f6db577a1db0150a60c00960bda8582)  
 ## 工具
 [vpn](https://www.baacloud33.com/modules/)  
 [git登录实现OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)  
@@ -12,7 +13,8 @@
 [okhttp](https://square.github.io/okhttp/)  
 [sql菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)  
 [Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
-
+[Lombok](https://www.projectlombok.org)  
+[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)  
 ## 脚本
 ```sql
 create table USER

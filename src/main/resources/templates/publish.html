@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>发布-码匠社区</title>
+    <title>发布-柚问题</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
@@ -14,9 +14,9 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">码匠社区</span>
+                <span class="sr-only">柚问题</span>
             </button>
-            <a class="navbar-brand" href="#">码匠社区</a>
+            <a class="navbar-brand" href="/">柚问题</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-left">
@@ -72,7 +72,7 @@
                     <div class="row">
                         <div class="alert alert-danger col-lg-9 col-md-12 col-sm-12 col-xs-12" th:text="${error}"
                              th:if="${error!=null}"></div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" style="float:right; ">
                             <button type="submit" class="btn btn-success btn-publish ">发布</button>
                         </div>
                     </div>
